@@ -2,14 +2,14 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Groceries!</title>
   </head>
   <body>
     <div class="container">
-      <form class="groceries">
+      <form id="groceries">
         <div class="form-group">
           <label for="item1">First Item</label>
           <input id="item1" class="form-control" type="text">
@@ -30,7 +30,13 @@
           <label for="item5">Fifth Item</label>
           <input id="item5" class="form-control" type="text">
         </div>
+        <button type="submit" class="btn btn-warning btn-lg">Go!</button>
       </form>
+      <div id="red">
+        <ul>
+
+        </ul>
+      </div>
     </div>
 
   </body>
